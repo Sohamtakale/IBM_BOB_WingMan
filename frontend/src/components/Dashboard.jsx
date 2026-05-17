@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 
-const API = 'http://localhost:8000'
+const API = 'https://ibm-bob-wingman.onrender.com'
 
 export default function Dashboard() {
   const navigate = useNavigate()

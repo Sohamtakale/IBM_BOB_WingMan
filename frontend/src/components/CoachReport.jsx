@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 
-const API = 'http://localhost:8000'
+const API = 'https://ibm-bob-wingman.onrender.com'
 
 function ScoreRing({ score, color }) {
   const r = 36

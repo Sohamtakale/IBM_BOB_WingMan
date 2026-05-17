@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect, useCallback } from 'react'
 import { useNavigate } from 'react-router-dom'
 
-const API = 'http://localhost:8000'
+const API = 'https://ibm-bob-wingman.onrender.com'
 
 const TONE_COLORS = {
   Confident:  { bg: '#111', border: '#333', text: '#e2e8f0', badge: '#fff' },

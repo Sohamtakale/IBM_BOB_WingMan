@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef, useCallback } from 'react'
 import { useNavigate } from 'react-router-dom'
 
-const API = 'http://localhost:8000'
+const API = 'https://ibm-bob-wingman.onrender.com'
 const delay = ms => new Promise(r => setTimeout(r, ms))
 
 function ParticleOrb({ mode }) {
